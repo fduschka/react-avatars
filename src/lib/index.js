@@ -1,3 +1,5 @@
-import Avatar from "./components/Avatar"
+import Initials from "./components/Initials"
+import Pixelcon from "./components/Pixelcon"
+import Jdenticon from "./components/Jdenticon"
 
-export { Avatar }
+export { Initials, Pixelcon, Jdenticon }

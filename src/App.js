@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Avatar from './lib/components/Avatar'
+import Initials from './lib/components/Initials'
+import Pixelcon from './lib/components/Pixelcon'
+import Jdenticon from './lib/components/Jdenticon';
 
 function App() {
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Avatar />
+        <Initials color="red" bg="#f48438" />
+        <Pixelcon color="blue" />
+        <Jdenticon seed="hallo" bg="green"/>
     </div>
   );
 }

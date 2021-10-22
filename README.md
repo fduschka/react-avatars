@@ -2,6 +2,15 @@
 
 React-Avatars makes it possible to generate endless different avatars.
 
+<p>
+    <a href="https://github.com/fduschka/react-avatars/blob/main/LICENSE" target="_blank">
+        <img src="https://img.shields.io/npm/l/react-avatars?style=flat-square" alt="License">
+    </a>
+    <a href="https://www.npmjs.com/package/@fduschka/react-avatars" target="_blank">
+        <img src="https://img.shields.io/npm/v/react-avatars?color=blue&style=flat-square" alt="Latest Version">
+    </a>
+</p>
+
 ## Installation
 
 The best way to consume React-Avatars is via the npm package which you can install with npm.
@@ -13,23 +22,28 @@ npm i react-avatars
 ## Importing Components
 
 ```js
-import { Avatar } from 'react-avatars'
+import { Initials } from 'react-avatars'
 ```
 
 ## Examples
-### Random Avatar
+### Basic Avatar
 ```js
-<Avatar /> 
+<Initials name="React Avatars" />
 ```
-### Customized Avatar
+### All Avatars
 If you don't want a new avatar each time your application renders, you can provide a seed which generates an avatar based on your seed.
 ```js
-<Avatar seed={'your_seed'} size="50" bg="#FF6347" />
+<Initials name="React Avatars" color="white" font="Arial" size="50" bg="#FF6347" />
+<Pixelcon color="#FF6347" size="50" />
+<Jdenticon seed="your_seed" size="50" bg="#FF6347" />
 ```
 ## Styles
-We are constantly workin on adding more styles!
+We are constantly working on adding more styles!
 
-- [x] [Avatar Illustration System](https://www.figma.com/community/file/829741575478342595) by Micah Lanier
+- [x] Initials
+- [x] Pixelcon
+- [x] Jdenticon by [dmester](https://github.com/dmester)
+
 
 
 ## License

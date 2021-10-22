@@ -1,12 +1,13 @@
 {
   "name": "react-avatars",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "private": false,
   "author": "Ferdi Duschka",
   "keywords": ["React", "Avatars"],
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": ["dist", "README.md"],
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fduschka/react-avatars.git"
